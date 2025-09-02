@@ -1,0 +1,11 @@
+The concatenated supermatrix phylogeny was generated using the following command:
+
+Command: ./iqtree2 -s FcC_supermatrix.fas -spp NucPartitions.nex -nt 20 -bb 1000 -safe
+
+where
+
+=>FcC_supermatrix.fas is the supermatrix file containing the concatenated gene alignments, generated using FASconCAT-G_v1.06.1.pl
+
+=>NucPartitions.nex is the partitioned best-fit models of sequence evolution.
+
+using 20 threads and 1000 bootstraps
