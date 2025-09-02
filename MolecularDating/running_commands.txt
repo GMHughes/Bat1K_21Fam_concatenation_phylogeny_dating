@@ -1,0 +1,23 @@
+Dating analyses was carried out using mcmctree, applied to all gene alignments assogned randomly to one of 73 bins
+
+Within each bin, a concatednated supermatrix was then generated, serving as input for mcmctree, in addition to our species tree. Fossil callibrations were added to target nodes on the follwong file:
+astral_fossil.tre
+
+Each bin contained a directory 'divtime', containing the mcmctree software directories
+
+Commands were applied to each bin as follows:
+
+cd gH
+../src/mcmctree mcmctree-outBV.ctl
+../src/baseml tmp0001.ctl
+cp rst2 out.BV
+cd ../mcmc
+cp ../gH out.BV in.BV
+../src/mcmctree
+
+
+
+
+
+
+
