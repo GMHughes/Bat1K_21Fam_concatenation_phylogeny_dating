@@ -16,6 +16,8 @@ cp ../gH out.BV in.BV
 ../src/mcmctree
 
 
+Note that "astral.tre" is the general tree name used for both T1 and T2 tree topologies 
+
 
 
 
