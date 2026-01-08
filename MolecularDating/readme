@@ -1,1 +1,4 @@
 Directory containing details pertaining to the molecular dating analyses
+
+Three Perl scripts to run various stages of mcmctree.
+Perl scripts assume files are of the "bin_" format, containing mcmctree in a directory called "divtime"
